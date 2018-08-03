@@ -5,7 +5,7 @@ class Pgm20
 public static void main(String []args)
 {
 Scanner sc=new Scanner(System.in);
-String s=sc.next.Line();
+String s=sc.next();
 for(int i=0;i<s.length();i++)
 {
   if(s.charAt(i)=='z')
@@ -21,7 +21,7 @@ for(int i=0;i<s.length();i++)
   else if(s.charAt(i)=='X')
   System.out.print("A");
   else
-  System.out.print((char)s.charAt(i)+3);
+  System.out.print((char)(s.charAt(i)+3));
   }
   }
   }
